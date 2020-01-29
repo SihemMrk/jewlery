@@ -6,10 +6,12 @@ var path = require("path");
 
 app.use(morgan("dev"));
 
-app.use(express.static(path.join(__dirname, "../public/index.html")));
+// app.use(express.static(path.join(__dirname, "../public/index.html")));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+
+app.use(express.static("public"));
 
 app.use("/api", require("./routes"));
 
