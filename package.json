@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server",
-    "start-dev": "webpack -w & nodemon server.js"
+    "start-dev": "webpack -w & npm run server.js"
   },
   "author": "",
   "license": "ISC",
@@ -23,6 +23,7 @@
     "@babel/core": "^7.8.3",
     "@babel/preset-react": "^7.8.3",
     "babel-loader": "^8.0.6",
+    "babel-polyfill": "^6.26.0",
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10"
   }

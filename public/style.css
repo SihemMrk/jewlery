@@ -1,0 +1,14 @@
+#navbar {
+  background-color: white;
+  height: 100px;
+}
+.link {
+  font-size: 1.3rem;
+  text-align: right;
+  padding-bottom: 10px;
+}
+
+.links {
+  color: #68bbe1;
+  margin-right: 20px;
+}
